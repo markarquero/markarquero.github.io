@@ -84,7 +84,7 @@ React.createElement("path", { fill: "none", stroke: "#333", "stroke-width": "4",
 
 ReactDOM.render( /*#__PURE__*/
 React.createElement(Countdown, {
-  timeTillDate: "04 04 2023, 3:00 am",
+  timeTillDate: "04 04 2023, 4:00 am",
   timeFormat: "MM DD YYYY, h:mm a" }),
 
 document.getElementById('app'));
