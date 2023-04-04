@@ -17,7 +17,7 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
       const minutes = countdown.format('mm');
       const seconds = countdown.format('ss');
 
-      this.setState({ days, hours, minutes, seconds });
+      this.setState({ hours, minutes, seconds });
     }, 1000);
   }
 
