@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.6;
+  color: #3D3529;
+}
+
+div {
+  width: 40%;
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: 2.2em;
+  padding: 0.4em 0 0.2em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid rgba(61, 53, 41, 0.15);
+  width: 40%;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+p:first-child:first-letter {
+  float: left;
+  font-size: 3.15em;
+  margin-right: 10px;
+  line-height: 1;
+}
+
+italic {
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  div, h1 {
+    width: 90%;
+  }
+}
